@@ -3,7 +3,7 @@ program ClienteTCP;
 uses
   System.StartUpCopy,
   FMX.Forms,
-  Unit1 in 'Unit1.pas' {Form5};
+  uMainFormClient in 'uMainFormClient.pas' {Form5};
 
 {$R *.res}
 

@@ -90,9 +90,12 @@ begin
       end;
 
     ReadString := FClient.IOHandler.ReadLn;
-
-    if Pos('?', ReadString) > 0 then
-      Command := Copy(ReadString, 0, Pos('?', ReadString)-1)
+    var ix:=Pos('?', ReadString);
+    if ix > 0 then
+    begin
+      Command    := Copy(ReadString, 0, ix-1);
+      ReadString := Copy(ReadString, ix+1, ReadString.Length);
+    end
     else
       Command := ReadString;
 

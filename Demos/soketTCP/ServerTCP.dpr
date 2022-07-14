@@ -3,7 +3,7 @@ program ServerTCP;
 uses
   System.StartUpCopy,
   FMX.Forms,
-  Unit4 in 'Unit4.pas' {Form4};
+  uMainFormServer in 'uMainFormServer.pas' {MainForm};
 
 {$R *.res}
 
@@ -12,6 +12,6 @@ begin
 
   ReportMemoryLeaksOnShutdown := True;
 
-  Application.CreateForm(TForm4, Form4);
+  Application.CreateForm(TMainForm, MainForm);
   Application.Run;
 end.

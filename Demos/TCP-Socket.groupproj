@@ -9,12 +9,6 @@
         <Projects Include="ClientTCP\ClienteTCP.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="ConsoleServer\HorseServer.dproj">
-            <Dependencies/>
-        </Projects>
-        <Projects Include="Package\GenericSocket.dproj">
-            <Dependencies/>
-        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -41,32 +35,14 @@
     <Target Name="ClienteTCP:Make">
         <MSBuild Projects="ClientTCP\ClienteTCP.dproj" Targets="Make"/>
     </Target>
-    <Target Name="HorseServer">
-        <MSBuild Projects="ConsoleServer\HorseServer.dproj"/>
-    </Target>
-    <Target Name="HorseServer:Clean">
-        <MSBuild Projects="ConsoleServer\HorseServer.dproj" Targets="Clean"/>
-    </Target>
-    <Target Name="HorseServer:Make">
-        <MSBuild Projects="ConsoleServer\HorseServer.dproj" Targets="Make"/>
-    </Target>
-    <Target Name="GenericSocket">
-        <MSBuild Projects="Package\GenericSocket.dproj"/>
-    </Target>
-    <Target Name="GenericSocket:Clean">
-        <MSBuild Projects="Package\GenericSocket.dproj" Targets="Clean"/>
-    </Target>
-    <Target Name="GenericSocket:Make">
-        <MSBuild Projects="Package\GenericSocket.dproj" Targets="Make"/>
-    </Target>
     <Target Name="Build">
-        <CallTarget Targets="ServerTCP;ClienteTCP;HorseServer;GenericSocket"/>
+        <CallTarget Targets="ServerTCP;ClienteTCP"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="ServerTCP:Clean;ClienteTCP:Clean;HorseServer:Clean;GenericSocket:Clean"/>
+        <CallTarget Targets="ServerTCP:Clean;ClienteTCP:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="ServerTCP:Make;ClienteTCP:Make;HorseServer:Make;GenericSocket:Make"/>
+        <CallTarget Targets="ServerTCP:Make;ClienteTCP:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>

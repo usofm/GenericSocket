@@ -9,9 +9,13 @@
     <Transaction>2022/02/25 14:12:16.000.719,=C:\Users\Willian Hubner\Desktop\2k22\TCPSocketServer\soketTCP\Unit2.pas</Transaction>
     <Transaction>2022/02/25 14:13:14.000.311,C:\Users\Willian Hubner\Desktop\2k22\TCPSocketServer\soketTCP\Unit2.pas=C:\Users\Willian Hubner\Desktop\2k22\TCPSocketServer\soketTCP\src\GenericSocket.pas</Transaction>
     <Transaction>2022/03/04 08:01:38.000.412,=C:\Users\Willian Hubner\Desktop\2k22\TCPSocketServer\soketTCP\src\GenericSocket.Server.pas</Transaction>
-    <Transaction>2022/03/04 08:01:38.000.289,=C:\Users\Willian Hubner\Desktop\2k22\TCPSocketServer\soketTCP\src\GenericSocket.Interfaces.pas</Transaction>
-    <Transaction>2022/03/04 08:01:38.000.243,=C:\Users\Willian Hubner\Desktop\2k22\TCPSocketServer\soketTCP\src\GenericSocket.Client.pas</Transaction>
     <Transaction>2022/03/04 08:01:38.000.365,=C:\Users\Willian Hubner\Desktop\2k22\TCPSocketServer\soketTCP\src\GenericSocket.Message.pas</Transaction>
+    <Transaction>2022/03/04 08:01:38.000.243,=C:\Users\Willian Hubner\Desktop\2k22\TCPSocketServer\soketTCP\src\GenericSocket.Client.pas</Transaction>
+    <Transaction>2022/03/04 08:01:38.000.289,=C:\Users\Willian Hubner\Desktop\2k22\TCPSocketServer\soketTCP\src\GenericSocket.Interfaces.pas</Transaction>
+    <Transaction>2022/06/25 16:56:57.328,C:\apps_delphi\compo\GenericSocket\Demos\soketTCP\uMainForm.pas=C:\apps_delphi\compo\GenericSocket\Demos\soketTCP\Unit4.pas</Transaction>
+    <Transaction>2022/06/25 16:56:57.328,C:\apps_delphi\compo\GenericSocket\Demos\soketTCP\uMainForm.fmx=C:\apps_delphi\compo\GenericSocket\Demos\soketTCP\Unit4.fmx</Transaction>
+    <Transaction>2022/06/25 17:12:16.812,C:\apps_delphi\compo\GenericSocket\Demos\soketTCP\uMainFormServer.pas=C:\apps_delphi\compo\GenericSocket\Demos\soketTCP\uMainForm.pas</Transaction>
+    <Transaction>2022/06/25 17:12:16.812,C:\apps_delphi\compo\GenericSocket\Demos\soketTCP\uMainFormServer.fmx=C:\apps_delphi\compo\GenericSocket\Demos\soketTCP\uMainForm.fmx</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
 		<NoProfile iOSSimulator="iPhone5"/>
